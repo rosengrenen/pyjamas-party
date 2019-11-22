@@ -1,0 +1,7 @@
+extends template.pug
+
+block content
+  .flex
+    ul(class="questions")
+      each question in questions
+        li= question

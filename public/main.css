@@ -39,3 +39,8 @@ body {
   margin: 0 auto;
   padding: 5px 10px;
 }
+
+.questions li {
+  list-style: none;
+  text-align: center;
+}

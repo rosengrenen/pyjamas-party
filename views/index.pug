@@ -1,0 +1,12 @@
+extends template.pug
+
+block content
+  .flex
+    h2 Skriv en fråga
+    form(class="form" action="/" method="POST")
+      div
+        label(for="question") Din fråga
+      div
+        input(type="text" id="question" name="question")
+      div
+        input(type="submit" value="Skicka")
